@@ -1,0 +1,86 @@
+.team{
+    display: flex;
+    margin: 50px 0 50px 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.team__header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.team__title{
+    font-size: 38px;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+}
+
+.team__founder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    left: 4%;
+}
+
+.team__content{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.team__founder h5{
+    width: 13vw;
+    font-weight: 650;
+}
+
+.team__member{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.card {
+    width: 20vw;
+    height: 25vh;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.headline {
+    display: flex;
+    flex-direction: row;
+}
+.headline h5{
+    font-weight: 650;
+}
+.headline img {
+    width: 5vw;
+}
+
+.testimonial{
+    border: 5px solid #5b2efd;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    width: fit-content;
+    position: relative;
+    left: 42%;
+    background: #5b2efd;
+
+}

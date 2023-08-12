@@ -4,7 +4,10 @@ import './index.css';
 import Navbar from './navbar';
 import Landing from './landing';
 import Demo from './demo';
-
+import Reason from './reason';
+import Advantage from './advantage';
+import Team from './team';
+import Trending from './trending';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +16,10 @@ root.render(
       <Navbar />
       <Landing />
       <Demo />
+      <Reason />
+      <Advantage />
+      <Team />
+      <Trending />
     </div>
 
   </React.StrictMode>

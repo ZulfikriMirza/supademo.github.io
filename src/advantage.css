@@ -1,0 +1,36 @@
+.advantage {
+    display: flex;
+    margin: 200px;
+    padding: 0;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.advantage__each {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+.advantage__each__body {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+}
+
+.advantage__each .advantage__each__body h1 {
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.advantage__each .advantage__each__body h2 {
+
+    font-weight: 500;
+}
+
+.advantage__each .advantage__each__body p {
+    opacity: 0.8;
+    font-weight: 400;
+}
