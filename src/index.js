@@ -8,6 +8,7 @@ import Reason from './reason';
 import Advantage from './advantage';
 import Team from './team';
 import Trending from './trending';
+import Question from './question';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
       <Advantage />
       <Team />
       <Trending />
+      <Question />
     </div>
 
   </React.StrictMode>

@@ -1,0 +1,29 @@
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.question__title {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.question__list{
+
+}
+
+.question__list ul li {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+}
+
+.question__footer{
+
+}
