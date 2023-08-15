@@ -51,7 +51,7 @@
     margin-bottom: 100px;
 }
 .trending__cards{
-    height: 15vw;
+    height: auto;
 }
 
 .trending__card__content h5{

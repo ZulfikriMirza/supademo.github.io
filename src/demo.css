@@ -26,6 +26,7 @@
     color: #bebebe;
     font-size: 12px;
 
+
 }
 
 .demo__list li {
@@ -74,10 +75,10 @@
 
 .demo__button:hover {
     background: #190075;
-    font-size: 17px;
+    transform: scale(1.1);
 }
 
 .demo__button:active {
     background: #2700b6;
-    font-size: 18px;
+    transform: scale(1);
 }

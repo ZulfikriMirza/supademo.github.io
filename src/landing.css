@@ -62,12 +62,12 @@
 
 .landing__button:hover {
     background: #190075;
-    font-size: 17px;
+    transform: scale(1.1);
 }
 
 .landing__button:active {
     background: #2700b6;
-    font-size: 18px;
+    transform: scale(1);
 }
 
 

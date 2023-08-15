@@ -8,9 +8,9 @@ function Demo() {
         <section className='demo'>
             <div className='demo__benefit'>
                 <ul className='demo__list'>
-                    <li>Endless screenshare sessions</li>
-                    <li>Recording demo videos that get no views</li>
-                    <li>Unengaging text documentation</li>
+                    <li className='demo__listing'>Endless screenshare sessions</li>
+                    <li className='demo__listing'>Recording demo videos that get no views</li>
+                    <li className='demo__listing'>Unengaging text documentation</li>
                 </ul>
             </div>
             <div className='demo__content'>

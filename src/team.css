@@ -51,10 +51,7 @@
     gap: 50px;
 }
 
-.card {
-    width: 20vw;
-    height: 25vh;
-}
+
 
 .card-body {
     display: flex;
