@@ -9,6 +9,7 @@ import Advantage from './advantage';
 import Team from './team';
 import Trending from './trending';
 import Question from './question';
+import Footer from './footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
       <Team />
       <Trending />
       <Question />
+      <Footer />
     </div>
 
   </React.StrictMode>

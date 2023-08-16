@@ -4,7 +4,7 @@ import './navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="nav-logo">Supademo</div>
+      <div className="nav-logo"><a href='/'>Supademo</a></div>
         <div>
             <ul className="nav-links">
                 <li className="nav-link-item dropdown"><a href="/">Use Cases <span className='UseCase__Span'>&#8964;</span></a>
