@@ -20,6 +20,7 @@
     margin-top: 2rem;
     border-bottom: 2px solid #fff;
     cursor: pointer;
+    text-align: start;
 }
 
 .question__list{
@@ -36,7 +37,7 @@
 .answer{
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1.4s ease;
+    transition: max-height 1s ease, opacity 1s ease, transform 1s ease;
 }
 
 .answer p{
@@ -47,7 +48,8 @@
 
 .faq:hover .answer {
     max-height: 300px;
-    animation: fade 1s ease-in-out;
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .faq:hover svg {
@@ -60,15 +62,14 @@ svg{
 
 
 @keyframes fade {
-    from{
+    from {
         opacity: 0;
         transform: translateY(-10px);
     }
-    to{
+    to {
         opacity: 1;
-        transform: translateY(0px)
+        transform: translateY(0);
     }
-    
 }
 
 .question__footer{
