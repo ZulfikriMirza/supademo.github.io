@@ -30,6 +30,7 @@
     font-weight: 800;
     margin: 0;
     padding: 0;
+    text-shadow: 3px 3px #84cffa;
 }
 
 .landing__description{
@@ -58,6 +59,7 @@
     border: 5px solid #5b2efd;
     border-radius: 10px;
     transition: 0.25s ease;
+    box-shadow: 5px 5px #000;
 }
 
 .landing__button:hover {

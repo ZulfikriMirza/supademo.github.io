@@ -20,11 +20,13 @@
     width: 55vw;
     color: #fff;
     margin-top: 50px;
+
 }
 
 .trending__title h1{
     font-size: 48px;
     font-weight: 700;
+    text-shadow: 10px 10px #000;
 }
 
 .trending__title p{
@@ -39,6 +41,20 @@
     background: #7775ff;
     width: 20vw;
     height: 7vh;
+    transition: 0.25s ease;
+    box-shadow: 10px 10px #000;
+}
+
+.trending__button:hover{
+    background: #8482ff;
+    color: #fff;
+
+}
+
+.trending__button:active{
+    background: #9d9bff;
+    color: #fff;
+    transform: scale(0.9);
 }
 
 .trending__card{

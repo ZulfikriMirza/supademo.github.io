@@ -90,6 +90,7 @@
     position: relative;
     border-radius: 10px;
     transition: 0.2s ease;
+    box-shadow: 2px 2px #000;
   }
 
   .Demo__Button:hover{
