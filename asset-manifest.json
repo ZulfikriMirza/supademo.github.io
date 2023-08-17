@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/supademo/static/css/main.5c697b88.css",
-    "main.js": "/supademo/static/js/main.86eb1b9e.js",
-    "index.html": "/supademo/index.html",
-    "main.5c697b88.css.map": "/supademo/static/css/main.5c697b88.css.map",
-    "main.86eb1b9e.js.map": "/supademo/static/js/main.86eb1b9e.js.map"
+    "main.css": "/supademo.github.io/static/css/main.5c697b88.css",
+    "main.js": "/supademo.github.io/static/js/main.86eb1b9e.js",
+    "index.html": "/supademo.github.io/index.html",
+    "main.5c697b88.css.map": "/supademo.github.io/static/css/main.5c697b88.css.map",
+    "main.86eb1b9e.js.map": "/supademo.github.io/static/js/main.86eb1b9e.js.map"
   },
   "entrypoints": [
     "static/css/main.5c697b88.css",
