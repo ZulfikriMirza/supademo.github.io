@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/supademo/static/css/main.5c697b88.css",
+    "main.js": "/supademo/static/js/main.86eb1b9e.js",
+    "index.html": "/supademo/index.html",
+    "main.5c697b88.css.map": "/supademo/static/css/main.5c697b88.css.map",
+    "main.86eb1b9e.js.map": "/supademo/static/js/main.86eb1b9e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c697b88.css",
+    "static/js/main.86eb1b9e.js"
+  ]
+}
